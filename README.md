@@ -35,6 +35,25 @@ You can start editing the data from zenmo application dashboard.
 
 ## SreenShots
 
+- Application Home Page
+![App Screenshot](![image](https://github.com/user-attachments/assets/5e768e2d-60fa-42ae-a4d4-f39a2fb74184))
+
+- Featured Products
+![Featured_SS](![image](https://github.com/user-attachments/assets/0a9ada50-ff05-4788-b6f5-f35b60bef929))
+
+- Category Pages
+![Category_SS](![image](https://github.com/user-attachments/assets/5932c9ca-cdb7-49d5-9a75-6d9930a9bfec)
+
+- CheckOut Flows
+
+![image](https://github.com/user-attachments/assets/7448c7ce-c111-482f-8d09-cb4a1477983c)
+![image](https://github.com/user-attachments/assets/6d79a032-2e8f-49cf-aa49-7ea1bb08c74d)
+![image](https://github.com/user-attachments/assets/09cf7055-9552-434e-add4-4445ecf14e69)
+![image](https://github.com/user-attachments/assets/135657da-5171-4d35-8648-1de8a7decd3b)
+
+After Payment Success, data will be added on admin dashboard, (only admins card see it).
+![image](https://github.com/user-attachments/assets/3fe0bb1d-c249-41af-b91b-13ed5d9a1788)
+
 
 ## Deploy on Vercel
 
