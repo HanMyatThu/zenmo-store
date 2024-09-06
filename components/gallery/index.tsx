@@ -99,7 +99,7 @@ const Gallery: React.FC<GalleryProps> = ({ images = [], additionalClass }) => {
                 className={cn(
                   "w-2 h-2 rounded-full ",
                   index === currentIndex
-                    ? "bg-accent w-3 h-3 shadow-md"
+                    ? "bg-primary w-3 h-3 shadow-md"
                     : "bg-slate-100"
                 )}
               />

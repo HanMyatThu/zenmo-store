@@ -10,6 +10,7 @@ import Billboard from "@/components/billboard";
 import Container from "@/components/ui/container";
 import ProductCard from "@/components/ui/product-card";
 import NoResults from "@/components/ui/no-results";
+import getStoreInfo from "@/actions/get-store";
 
 export const revalidate = 0;
 
@@ -36,6 +37,7 @@ const CategoryPage: React.FC<CategoryPageProps> = async ({
   const sizes = await getSizes();
   const colors = await getColors();
   const category = await getCategory(params.categoryId);
+  const store = await getStoreInfo();
 
   return (
     <div className="bg-white">
@@ -46,6 +48,7 @@ const CategoryPage: React.FC<CategoryPageProps> = async ({
             data={category.billboard}
             additionalProps="transition aspect-[4/1]"
             rounded="rounded-xl"
+            name={store.name}
           />
         </div>
         <div className="px-4 pb-16 sm:px-6 lg:px-8">

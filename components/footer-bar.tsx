@@ -40,44 +40,30 @@ const FooterBar = async () => {
     ));
 
   return (
-    <div className="px-10 py-6 border-t-2 border-accent/10 ">
+    <div className="px-10 py-6 border-t-2 border-primary/10 ">
       <Container>
         <div className="grid grid-cols-2 md:grid-cols-4 ">
           <nav>
             <h4 className="py-2">
-              <span className="border-b-4 border-accent">
-                HELP
-              </span>
+              <span className="border-b-4 border-primary">HELP</span>
             </h4>
-            <ul className="py-2">
-              {renderLinks(helpLinks)}
-            </ul>
+            <ul className="py-2">{renderLinks(helpLinks)}</ul>
           </nav>
           <nav>
             <h4 className="py-2">
-              <span className="border-b-4 border-accent">
-                ABOUT US
-              </span>
+              <span className="border-b-4 border-accent">ABOUT US</span>
             </h4>
-            <ul className="py-2">
-              {renderLinks(aboutLinks)}
-            </ul>
+            <ul className="py-2">{renderLinks(aboutLinks)}</ul>
           </nav>
           <nav>
             <h4 className="py-2">
-              <span className="border-b-4 border-accent">
-                TERMS
-              </span>
+              <span className="border-b-4 border-accent">TERMS</span>
             </h4>
-            <ul className="py-2">
-              {renderLinks(termsLinks)}
-            </ul>
+            <ul className="py-2">{renderLinks(termsLinks)}</ul>
           </nav>
           <nav>
             <h4 className="py-2">
-              <span className="border-b-4 border-accent">
-                BUY ONLINE
-              </span>
+              <span className="border-b-4 border-accent">BUY ONLINE</span>
             </h4>
             <ul className="py-2">
               {categories &&

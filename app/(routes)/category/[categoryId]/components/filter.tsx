@@ -63,7 +63,7 @@ const Filter: React.FC<FilterProps> = ({ data, name, valueKey }) => {
             <Button
               className={cn(
                 "rounded-md text-sm text-gray-800 p-2 bg-white border border-gray-300",
-                selectedValues.includes(filter.name) && "bg-accent text-white"
+                selectedValues.includes(filter.name) && "bg-primary text-white"
               )}
               onClick={() => onClick(filter.name)}
             >
